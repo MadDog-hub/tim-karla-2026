@@ -18,8 +18,6 @@ import FAQSection from '@/components/FAQSection';
 import Footer from '@/components/Footer';
 import CoverSection from '@/components/CoverSection';
 import InvitationRevealSection from '@/components/InvitationRevealSection';
-import SaveTheDateSection from '@/components/SaveTheDateSection';
-import ProposalVideoSection from '@/components/ProposalVideoSection';
 import MusicConsentPopup from '@/components/MusicConsentPopup';
 import { AnimationContext } from '@/contexts/AnimationContext';
 
@@ -66,7 +64,6 @@ const Index = () => {
         <CountdownSection />
         <ImageLoop />
         <StorySection />
-        <ProposalVideoSection audioRef={audioRef} />
         <ScrollTriggeredTimeline />
         <CoverSection
           imageUrl="https://res.cloudinary.com/dc36azfgf/image/upload/v1767436692/1_fav_prenup_kyhjl4.jpg"
@@ -79,7 +76,6 @@ const Index = () => {
         />
         <DressCodeSection />
         <HashtagGiftsSection />
-        <SaveTheDateSection audioRef={audioRef} />
         <MemorableMomentsSection />
         <RSVPSection />
         <CoverSection
