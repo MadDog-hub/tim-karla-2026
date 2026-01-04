@@ -2,17 +2,13 @@ import { motion } from 'framer-motion';
 
 const DressCodeSection = () => {
   const dressCodeColors = [
-    { name: '', color: '#534228', hex: '#534228' },
-    { name: '', color: '#707654', hex: '#707654' },
-    { name: '', color: '#b49a83', hex: '#b49a83' },
-    { name: '', color: '#fde3e2', hex: '#fde3e2' }
+    { name: 'Blush Pink', color: '#fde3e2', hex: '#fde3e2' },
+    { name: 'Ivory', color: '#b49a83', hex: '#b49a83' },
+    { name: 'Sage Green', color: '#707654', hex: '#707654' }
   ];
 
   const principalSponsorsColors = [
-    { name: '', color: '#0a1833', hex: '#0a1833' },
-    { name: '', color: '#b3cfe5', hex: '#b3cfe5' },
-    { name: '', color: '#4a7fa7', hex: '#4a7fa7' },
-    { name: '', color: '#1a3d63', hex: '#1a3d63' }
+    { name: 'Beige', color: '#b49a83', hex: '#b49a83' }
   ];
 
   return (
@@ -28,7 +24,7 @@ const DressCodeSection = () => {
         <div className="absolute top-1/3 left-1/4 w-64 h-64 border border-primary/30 rounded-full"></div>
         <div className="absolute bottom-1/3 right-1/4 w-48 h-48 border border-primary/30 rounded-full"></div>
       </div>
-      <div className="max-w-5xl mx-auto relative z-10">
+      <div className="max-w-6xl mx-auto relative z-10 px-4">
         {/* Section Header */}
         <motion.div 
           className="text-center mb-16 relative"
@@ -41,79 +37,108 @@ const DressCodeSection = () => {
           </h2>
         </motion.div>
 
-        {/* Modern Dress Code Grid */}
-        <div className="space-y-16 mb-16">
-          {/* Guests */}
+        {/* Side by Side Grid */}
+        <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-stretch">
+          {/* Principal Sponsors */}
           <motion.div 
             className="group"
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut", delay: 8.4 }}
+            initial={{ opacity: 0, x: -30 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut", delay: 8.1 }}
           >
-            <div className="bg-white shadow-teal border border-primary/20 rounded-xl p-8 hover-elegant transition-all duration-500 relative">
-              <div className="text-center">
-                <motion.div
-                  initial={{ scale: 0.8 }}
-                  animate={{ scale: 1 }}
-                  transition={{ duration: 0.6, delay: 8.6 }}
-                >
-                  <div className="mb-10 relative">
-                    <div className="absolute inset-0 bg-gradient-to-l from-primary/10 to-transparent rounded-2xl"></div>
-                    <h3 className="text-2xl md:text-3xl font-display font-medium text-foreground mb-8 relative z-10">
-                      FOR GUESTS
-                    </h3>
-                    <div className="grid md:grid-cols-2 gap-10 md:gap-16 px-4">
-                      <div className="text-center">
-                        <p className="text-lg font-semibold text-foreground mb-6 uppercase tracking-wider">Gentlemen</p>
-                        <div className="space-y-2 mb-6 text-foreground/80 font-body">
-                          <p>Blue Grey, Grey pants</p>
-                          <p>White, Beige long sleeves</p>
-                        </div>
-                        <motion.img 
-                          src="https://res.cloudinary.com/dnib23v4d/image/upload/v1767451360/3225f580-936f-433e-b835-5a72e3aa6ab8.png"
-                          alt="Gentlemen Guests attire"
-                          className="w-full max-w-md mx-auto object-contain rounded-2xl shadow-lg"
-                          initial={{ opacity: 0, scale: 0.9 }}
-                          animate={{ opacity: 1, scale: 1 }}
-                          transition={{ duration: 0.8, delay: 8.8 }}
-                        />
-                      </div>
-                      <div className="text-center">
-                        <p className="text-lg font-semibold text-foreground mb-6 uppercase tracking-wider">Ladies</p>
-                        <p className="text-foreground/80 font-body mb-6">Guest Ladies Dress Palette</p>
-                        <motion.img 
-                          src="https://res.cloudinary.com/dnib23v4d/image/upload/v1767447581/78cf6737-ea4d-489d-88b0-520ab948ab6a.png"
-                          alt="Ladies Guests attire"
-                          className="w-full max-w-md mx-auto object-contain rounded-2xl shadow-lg"
-                          initial={{ opacity: 0, scale: 0.9 }}
-                          animate={{ opacity: 1, scale: 1 }}
-                          transition={{ duration: 0.8, delay: 8.9 }}
-                        />
-                      </div>
+            <div className="h-full bg-white shadow-teal border border-primary/20 rounded-xl p-8 hover-elegant transition-all duration-500 relative flex flex-col">
+              <div className="text-center flex-1">
+                <div className="mb-10 relative">
+                  <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-transparent rounded-2xl"></div>
+                  <h3 className="text-xl md:text-2xl font-display font-medium text-foreground mb-8 relative z-10 uppercase tracking-widest">
+                    Principal Sponsors
+                  </h3>
+                  <div className="space-y-4 mb-8">
+                    <div className="inline-block px-4 py-2 bg-primary/5 rounded-full border border-primary/10">
+                      <p className="text-sm font-semibold text-primary uppercase tracking-wider">Formal Attire</p>
+                    </div>
+                    <div className="text-sm text-foreground/80 space-y-1">
+                      <p>Men: Formal suit</p>
+                      <p>Ladies: Beige long gown</p>
                     </div>
                   </div>
-                </motion.div>
+                  <motion.img 
+                    src="https://res.cloudinary.com/diskgga1j/image/upload/v1767537404/ef3451ac-3d1e-43d1-a7d3-de7d760d8f6e_djrlty.png"
+                    alt="Principal Sponsors attire"
+                    className="w-full max-w-sm mx-auto object-contain rounded-2xl shadow-lg"
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.8, delay: 8.5 }}
+                  />
+                </div>
                 
-                {/* Color Palette for Guests */}
-                <motion.div
-                  className="mt-10 pt-10 border-t border-primary/20"
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: 9.0 }}
-                >
-                  <p className="text-lg font-semibold text-foreground mb-6">Color Motif</p>
-                  <div className="flex justify-center flex-wrap gap-6 sm:gap-8">
-                    {dressCodeColors.map((colorItem, index) => (
+                {/* Color Palette for Principal Sponsors */}
+                <div className="mt-auto pt-8 border-t border-primary/20">
+                  <p className="text-sm font-semibold text-foreground mb-6 uppercase tracking-widest">Color Motif</p>
+                  <div className="flex justify-center">
+                    {principalSponsorsColors.map((colorItem, index) => (
                       <div key={index} className="text-center">
                         <div 
-                          className="w-16 h-16 sm:w-20 sm:h-20 rounded-xl border-2 border-border shadow-soft hover:scale-105 transition-transform duration-300"
+                          className="w-16 h-16 rounded-xl border-2 border-border shadow-soft hover:scale-105 transition-transform duration-300"
                           style={{ backgroundColor: colorItem.color }}
                         ></div>
-                        <p className="text-xs text-foreground mt-1">{colorItem.name}</p>
+                        <p className="text-xs text-foreground mt-2 font-medium tracking-wide">{colorItem.name}</p>
                       </div>
                     ))}
                   </div>
-                </motion.div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* Guests */}
+          <motion.div 
+            className="group"
+            initial={{ opacity: 0, x: 30 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut", delay: 8.4 }}
+          >
+            <div className="h-full bg-white shadow-teal border border-primary/20 rounded-xl p-8 hover-elegant transition-all duration-500 relative flex flex-col">
+              <div className="text-center flex-1">
+                <div className="mb-10 relative">
+                  <div className="absolute inset-0 bg-gradient-to-l from-primary/10 to-transparent rounded-2xl"></div>
+                  <h3 className="text-xl md:text-2xl font-display font-medium text-foreground mb-8 relative z-10 uppercase tracking-widest">
+                    Guests
+                  </h3>
+                  <div className="space-y-4 mb-8">
+                    <div className="inline-block px-4 py-2 bg-primary/5 rounded-full border border-primary/10">
+                      <p className="text-sm font-semibold text-primary uppercase tracking-wider">Semi-Formal Attire</p>
+                    </div>
+                    <div className="text-sm text-foreground/80 space-y-1">
+                      <p>Men: Beige, White, Blue Gray</p>
+                      <p>Ladies: Blush Pink, Ivory, Sage Green</p>
+                    </div>
+                  </div>
+                  <motion.img 
+                    src="https://res.cloudinary.com/diskgga1j/image/upload/v1767537431/779c8c18-b6f6-4b6f-b651-5f651dbd0d51_ycr5hx.png"
+                    alt="Guests attire"
+                    className="w-full max-w-sm mx-auto object-contain rounded-2xl shadow-lg"
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.8, delay: 8.8 }}
+                  />
+                </div>
+                
+                {/* Color Palette for Guests */}
+                <div className="mt-auto pt-8 border-t border-primary/20">
+                  <p className="text-sm font-semibold text-foreground mb-6 uppercase tracking-widest">Color Motif</p>
+                  <div className="flex justify-center flex-wrap gap-4">
+                    {dressCodeColors.map((colorItem, index) => (
+                      <div key={index} className="text-center">
+                        <div 
+                          className="w-16 h-16 rounded-xl border-2 border-border shadow-soft hover:scale-105 transition-transform duration-300"
+                          style={{ backgroundColor: colorItem.color }}
+                        ></div>
+                        <p className="text-xs text-foreground mt-2 font-medium tracking-wide">{colorItem.name}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
               </div>
             </div>
           </motion.div>

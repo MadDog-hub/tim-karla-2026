@@ -111,6 +111,33 @@ const EntourageSection = () => {
           </div>
         </motion.div>
 
+        {/* Principal Sponsors */}
+        <motion.div 
+          className="mb-8 md:mb-12"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
+        >
+          <h3 className="text-xl md:text-2xl lg:text-3xl font-display font-bold mb-4 md:mb-6 text-primary" data-testid="principal-sponsors-title">
+            {entourageData.principalSponsors.title}
+          </h3>
+          <div className="max-w-4xl mx-auto space-y-1">
+            {entourageData.principalSponsors.men.map((manName, index) => {
+              const womanName = entourageData.principalSponsors.women[index];
+              return (
+                <div key={index} className="grid grid-cols-2 gap-4 md:gap-8">
+                  <p className="text-xs md:text-base lg:text-lg font-telma text-foreground text-right" data-testid={`principal-sponsor-man-${index}`}>
+                    {manName}
+                  </p>
+                  <p className="text-xs md:text-base lg:text-lg font-telma text-foreground text-left" data-testid={`principal-sponsor-woman-${index}`}>
+                    {womanName}
+                  </p>
+                </div>
+              );
+            })}
+          </div>
+        </motion.div>
+
         {/* Secondary Sponsors */}
         <motion.div 
           className="mb-8 md:mb-12"
