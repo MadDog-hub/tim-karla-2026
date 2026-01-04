@@ -66,7 +66,7 @@ const RSVPSection = () => {
               transition={{ duration: 0.6, delay: 11.4 }}
             >
               <a 
-                href="https://josh-pat-rsvp.replit.app" 
+                href="https://tim-karla-rsvp.replit.app" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-block px-10 py-4 bg-primary text-primary-foreground text-sm md:text-base font-display tracking-wider hover:bg-primary/90 transition-colors duration-300 border-2 border-primary uppercase"
@@ -82,7 +82,7 @@ const RSVPSection = () => {
                   Please confirm your attendance by responding to our invitation. Click the RSVP HERE! button above.
                 </p>
                 <p className="text-center">
-                  <span className="font-body md:text-lg font-bold px-3 py-1 rounded whitespace-nowrap text-[12px] text-primary-foreground bg-primary">THE DEADLINE IS ON JANUARY 30</span>
+                  <span className="font-body md:text-lg font-bold px-3 py-1 rounded whitespace-nowrap text-[12px] text-primary-foreground bg-primary">THE DEADLINE IS ON FEBRUARY 28</span>
                 </p>
 
                 {/* Additional RSVP Notes */}
