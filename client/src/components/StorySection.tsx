@@ -39,39 +39,24 @@ const StorySection = () => {
             </div>
 
             {/* Complete Story */}
-            <div className="space-y-6 text-base text-foreground/90 leading-relaxed" data-testid="text-story-content">
-              <section>
-                <h3 className="font-serif font-bold text-primary mb-2">How We Met</h3>
-                <p>
-                  Our story began in 2011 through the church ministry of The Salvation Army. Tim and Karla's paths first crossed there, and from that moment, we grew together, sharing laughter, dreams, and the little moments that make life beautiful. Our hearts stayed intertwined, always finding their way back to each other.
+            <div className="space-y-8 text-base text-foreground/90 leading-relaxed" data-testid="text-story-content">
+              <section className="text-center">
+                <p className="text-2xl md:text-3xl font-display italic text-primary leading-snug">
+                  "He asked, I said yes, and the rest is our forever story."
                 </p>
               </section>
 
-              <section>
-                <h3 className="font-serif font-bold text-primary mb-2">Our Dreams</h3>
+              <section className="space-y-4">
+                <h3 className="font-serif font-bold text-primary uppercase tracking-widest text-sm border-b border-primary/10 pb-2">Our Commitment</h3>
                 <p>
-                  We dream of building a family filled with love, laughter, and warmth, and of embracing life’s adventures together, hand in hand.
+                  We promise to walk in the calling God has given us, trusting that together we can do greater things, empowered by the love and support we share.
                 </p>
               </section>
 
-              <section>
-                <h3 className="font-serif font-bold text-primary mb-2">Our Decision</h3>
-                <p>
-                  After years of growing, learning, and loving, we’ve decided to tie the knot. It’s a promise to fully commit to one another and to begin the most beautiful chapter of our lives together.
-                </p>
-              </section>
-
-              <section>
-                <h3 className="font-serif font-bold text-primary mb-2">Our Future</h3>
-                <p>
-                  We look forward to living life to the fullest, making up for lost moments, and cherishing every experience. Traveling, exploring, and discovering the world together will only bring us closer, deepening our bond with each passing day.
-                </p>
-              </section>
-
-              <section>
-                <h3 className="font-serif font-bold text-primary mb-2">Our Promise</h3>
-                <p>
-                  Through sunshine and storms, joy and challenges, we vow to stand by each other’s side. For better or worse, we promise to love, support, and never leave each other behind.
+              <section className="bg-primary/5 p-6 rounded-lg space-y-3 italic border-l-4 border-primary/20">
+                <h3 className="font-serif font-bold text-primary not-italic text-sm">1 Corinthians 13:4-7</h3>
+                <p className="text-foreground/80">
+                  "Love is patient and kind; love does not envy or boast; it is not arrogant or rude. It does not insist on its own way; it is not irritable or resentful; it does not rejoice at wrongdoing, but rejoices with the truth. Love bears all things, believes all things, hopes all things, endures all things."
                 </p>
               </section>
             </div>
