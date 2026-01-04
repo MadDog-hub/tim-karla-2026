@@ -44,20 +44,34 @@ const StorySection = () => {
                 <p className="text-2xl md:text-3xl font-display italic text-primary leading-snug">
                   "He asked, I said yes, and the rest is our forever story."
                 </p>
+                <h3 className="text-xl font-display font-semibold text-primary mt-4">Our Love Story</h3>
               </section>
 
               <section className="space-y-4">
-                <h3 className="font-serif font-bold text-primary uppercase tracking-widest text-sm border-b border-primary/10 pb-2">Our Commitment</h3>
                 <p>
-                  We promise to walk in the calling God has given us, trusting that together we can do greater things, empowered by the love and support we share.
+                  Tim and Karla’s love story is one rooted in prayer, patience, and God’s perfect timing. Focused on their individual journeys and careers, they came from different family cultures and interests, yet God gently molded their paths to meet at the right moment.
+                </p>
+                <p>
+                  What began as a simple connection grew into a genuine relationship grounded in faith, respect, and shared values. Together, they find joy in traveling, watching movies, and playing racket sports—treasuring both life’s adventures and its quiet moments.
+                </p>
+                <p>
+                  Grateful for God’s gift, Tim and Karla celebrate a love that is happy, genuine, and guided by Him.
                 </p>
               </section>
 
-              <section className="bg-primary/5 p-6 rounded-lg space-y-3 italic border-l-4 border-primary/20">
-                <h3 className="font-serif font-bold text-primary not-italic text-sm">1 Corinthians 13:4-7</h3>
-                <p className="text-foreground/80">
-                  "Love is patient and kind; love does not envy or boast; it is not arrogant or rude. It does not insist on its own way; it is not irritable or resentful; it does not rejoice at wrongdoing, but rejoices with the truth. Love bears all things, believes all things, hopes all things, endures all things."
-                </p>
+              <section className="bg-primary/5 p-6 rounded-lg space-y-4 border-l-4 border-primary/20">
+                <div className="space-y-2">
+                  <p className="italic text-foreground/80">
+                    “He has made everything beautiful in its time.”
+                  </p>
+                  <p className="text-sm font-semibold text-primary">— Ecclesiastes 3:11</p>
+                </div>
+                <div className="space-y-2">
+                  <p className="italic text-foreground/80">
+                    “And above all these put on love, which binds everything together in perfect harmony.”
+                  </p>
+                  <p className="text-sm font-semibold text-primary">— Colossians 3:14</p>
+                </div>
               </section>
             </div>
           </div>
