@@ -66,21 +66,29 @@ const Index = () => {
         <StorySection />
         <ScrollTriggeredTimeline />
         <CoverSection
-          imageUrl="https://res.cloudinary.com/dc36azfgf/image/upload/v1767436692/1_fav_prenup_kyhjl4.jpg"
+          imageUrl="https://res.cloudinary.com/diskgga1j/image/upload/v1767535244/cover1_gc0h2d.jpg"
           alt="Tim & Karla Wedding Cover 1"
         />
         <VenueSection />
         <CoverSection
-          imageUrl="https://res.cloudinary.com/dc36azfgf/image/upload/v1767436692/2_fav_prenup_hkvxlo.jpg"
+          imageUrl="https://res.cloudinary.com/diskgga1j/image/upload/v1767535244/cover2_ptmjqx.jpg"
           alt="Tim & Karla Wedding Cover 2"
         />
         <DressCodeSection />
+        <CoverSection
+          imageUrl="https://res.cloudinary.com/diskgga1j/image/upload/v1767535245/cover3_rnwsiy.jpg"
+          alt="Tim & Karla Wedding Cover 3"
+        />
         <HashtagGiftsSection />
         <MemorableMomentsSection />
+        <CoverSection
+          imageUrl="https://res.cloudinary.com/diskgga1j/image/upload/v1767535245/cover4_nrhwxr.jpg"
+          alt="Tim & Karla Wedding Cover 4"
+        />
         <RSVPSection />
         <CoverSection
-          imageUrl="https://res.cloudinary.com/dc36azfgf/image/upload/v1767436692/3_fav_prenup_sdq7sf.jpg"
-          alt="Tim & Karla Wedding Cover 3"
+          imageUrl="https://res.cloudinary.com/diskgga1j/image/upload/v1767535243/cover5_lnpn7y.jpg"
+          alt="Tim & Karla Wedding Cover 5"
         />
         <EntourageSection />
         <FAQSection />
