@@ -99,7 +99,7 @@ const VenueSection = () => {
                       {/* Image frame decoration */}
                       <div className="absolute -inset-1 bg-gradient-to-br from-primary/20 to-primary/5 rounded-lg" />
                       <img
-                        src={venue.image}
+                        src="https://res.cloudinary.com/diskgga1j/image/upload/v1767535293/bc160514-da67-4451-a500-dba6c786d5f5.png"
                         alt={venue.name}
                         className="relative w-full h-72 md:h-96 object-cover rounded-lg shadow-xl"
                         loading="lazy"
