@@ -57,35 +57,11 @@ const HashtagGiftsSection = () => {
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.6, delay: 1.2 }}
               >
-                <div className="space-y-6 text-base md:text-lg text-foreground/80 leading-relaxed mb-10">
+                <div className="space-y-2 text-base md:text-lg text-foreground/80 leading-relaxed mb-6">
                   <p className="font-medium">With all that we have, we’ve been truly blessed.</p>
                   <p className="font-medium">Your presence and prayers are all that we request.</p>
                   <p className="font-medium">But if you desire to give nonetheless,</p>
                   <p className="font-medium">A monetary gift is one we suggest.</p>
-                </div>
-
-                {/* QR Code and Bank Details Text */}
-                <div className="space-y-2 mb-6">
-                  <p className="text-sm font-bold text-primary mt-4 uppercase tracking-wide">QR codes and Bank details</p>
-                </div>
-
-                {/* QR Code Card */}
-                <div className="max-w-[280px] mx-auto bg-white rounded-xl shadow-lg border border-border/30 p-4">
-                  <div className="flex justify-center mb-2">
-                    <span className="font-bold text-[#0033A0] text-2xl tracking-tighter">BDO</span>
-                  </div>
-                  <p className="text-sm font-bold text-foreground mb-1">TimKarlaWedding</p>
-                  <div className="aspect-square bg-white border-2 border-primary/20 rounded-lg p-2 mb-2">
-                    <img 
-                      src="https://res.cloudinary.com/dnib23v4d/image/upload/v1767443953/giftqr_wc1vip.jpg" 
-                      alt="BDO QR Code"
-                      className="w-full h-full object-contain"
-                    />
-                  </div>
-                  <p className="text-[10px] text-foreground/60 leading-tight">
-                    BDO to BDO transfers are free.<br />
-                    Fees may apply for non-BDO transfers.
-                  </p>
                 </div>
               </motion.div>
             </motion.div>
