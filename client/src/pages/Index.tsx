@@ -47,7 +47,7 @@ const Index = () => {
         preload="auto"
         style={{ display: 'none' }}
         data-testid="background-audio"
-        src="https://res.cloudinary.com/dc36azfgf/video/upload/v1767436820/Love_Wins_All_Piano_cover_by_James_Wong_cccpcn.mp3"
+        src="https://res.cloudinary.com/diskgga1j/video/upload/v1767537799/Everything_pz76fh.mp3"
       />
 
       <MusicConsentPopup 
