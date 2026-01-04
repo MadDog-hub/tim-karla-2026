@@ -43,7 +43,7 @@ const StorySection = () => {
               <section>
                 <h3 className="font-serif font-bold text-primary mb-2">How We Met</h3>
                 <p>
-                  Our story began in college at NCBA Fairview back in 2014. Patricia made the first move, noticing Joshua long before he realized she had captured his heart. From that moment, we grew together, sharing laughter, dreams, and the little moments that make life beautiful. Even as our paths led us to different careers—Joshua in the gaming world and Patricia in sales—our hearts stayed intertwined, always finding their way back to each other.
+                  Our story began in 2011 through the church ministry of The Salvation Army. Tim and Karla's paths first crossed there, and from that moment, we grew together, sharing laughter, dreams, and the little moments that make life beautiful. Our hearts stayed intertwined, always finding their way back to each other.
                 </p>
               </section>
 

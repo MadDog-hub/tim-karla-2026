@@ -98,7 +98,7 @@ const HashtagGiftsSection = () => {
                   <div className="flex justify-center mb-2">
                     <span className="font-bold text-[#0033A0] text-2xl tracking-tighter">BDO</span>
                   </div>
-                  <p className="text-sm font-bold text-foreground mb-1">JoshPatWedding</p>
+                  <p className="text-sm font-bold text-foreground mb-1">TimKarlaWedding</p>
                   <div className="aspect-square bg-white border-2 border-primary/20 rounded-lg p-2 mb-2">
                     <img 
                       src="https://res.cloudinary.com/dnib23v4d/image/upload/v1767443953/giftqr_wc1vip.jpg" 

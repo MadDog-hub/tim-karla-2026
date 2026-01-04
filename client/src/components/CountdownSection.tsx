@@ -10,7 +10,7 @@ const CountdownSection = () => {
   });
 
   useEffect(() => {
-    const targetDate = new Date('February 27, 2026 15:00:00').getTime();
+    const targetDate = new Date('March 28, 2026 15:00:00').getTime();
 
     const updateTimer = () => {
       const now = new Date().getTime();
