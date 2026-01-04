@@ -42,7 +42,7 @@ const HashtagGiftsSection = () => {
               transition={{ duration: 0.6, delay: 0.8 }}
             >
               <motion.h2 
-                className="font-script italic text-foreground mb-6 text-3xl md:text-4xl lg:text-5xl text-center"
+                className="font-script italic text-primary mb-6 text-3xl md:text-4xl lg:text-5xl text-center"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 1.0 }}

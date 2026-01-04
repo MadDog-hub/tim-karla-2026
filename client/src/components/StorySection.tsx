@@ -19,7 +19,7 @@ const StorySection = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut", delay: 3.8 }}
       >
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display text-center text-foreground mb-3" data-testid="text-story-title">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display text-center text-primary mb-3" data-testid="text-story-title">
           SHE SAID YES!
         </h2>
         <p className="text-center text-sm sm:text-base text-foreground/60 italic">A couple, a spark, and a shared love for adventure</p>

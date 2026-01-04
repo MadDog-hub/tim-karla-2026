@@ -47,7 +47,7 @@ const CountdownSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
         >
-          <h2 className="text-4xl font-display font-light text-foreground mb-2" data-testid="text-countdown-title">
+          <h2 className="text-4xl font-display font-light text-primary mb-2" data-testid="text-countdown-title">
             Forever starts soon
           </h2>
         </motion.div>
