@@ -204,9 +204,9 @@ const EntourageSection = () => {
 
         {/* Secondary Sponsors */}
         <motion.div 
-          className="mb-24 bg-primary/5 py-12 rounded-2xl"
-          initial={{ opacity: 0, scale: 0.95 }}
-          whileInView={{ opacity: 1, scale: 1 }}
+          className="mb-24 py-12"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
