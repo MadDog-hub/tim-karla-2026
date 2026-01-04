@@ -75,10 +75,6 @@ const Index = () => {
           alt="Tim & Karla Wedding Cover 2"
         />
         <DressCodeSection />
-        <CoverSection
-          imageUrl="https://res.cloudinary.com/diskgga1j/image/upload/v1767535245/cover3_rnwsiy.jpg"
-          alt="Tim & Karla Wedding Cover 3"
-        />
         <HashtagGiftsSection />
         <MemorableMomentsSection />
         <CoverSection
@@ -91,6 +87,10 @@ const Index = () => {
           alt="Tim & Karla Wedding Cover 5"
         />
         <EntourageSection />
+        <CoverSection
+          imageUrl="https://res.cloudinary.com/diskgga1j/image/upload/v1767535245/cover3_rnwsiy.jpg"
+          alt="Tim & Karla Wedding Cover 3"
+        />
         <FAQSection />
         <Footer />
       </main>
