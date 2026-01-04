@@ -24,6 +24,9 @@ The application is a full-stack JavaScript project using a React frontend with T
 ## Recent Changes
 - **2026-01-04**: Complete content overhaul for Tim & Karla's wedding:
   - Updated all components with new couple names "Tim & Karla"
+  - Updated hero, story, and gift guide images with new high-quality assets
+  - Changed story title to "SHE SAID YES!"
+  - Updated polaroid images with new labels: beloved, soulmates, forever
   - Changed wedding date to March 28, 2026
   - Updated venue to Casa Ibarra, MOA, Pasay City
   - Updated wedding timeline:

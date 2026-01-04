@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-const storyCoupleImage = 'https://res.cloudinary.com/dc36azfgf/image/upload/v1767436738/she_said_yes_eew6qv.jpg';
+const storyCoupleImage = 'https://res.cloudinary.com/dtlvkkivb/image/upload/v1767503782/she_said_yes_obefqd.jpg';
 import { Heart } from 'lucide-react';
 
 const StorySection = () => {
@@ -20,7 +20,7 @@ const StorySection = () => {
         transition={{ duration: 0.8, ease: "easeOut", delay: 3.8 }}
       >
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display text-center text-foreground mb-3" data-testid="text-story-title">
-          OUR STORY
+          SHE SAID YES!
         </h2>
         <p className="text-center text-sm sm:text-base text-foreground/60 italic">A couple, a spark, and a shared love for adventure</p>
       </motion.div>
