@@ -57,39 +57,15 @@ const HashtagGiftsSection = () => {
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.6, delay: 1.2 }}
               >
-                <p 
-                  className="text-sm md:text-base text-foreground/80 leading-relaxed mb-8"
-                  data-testid="text-gifts-message"
-                >
-                  Your presence at our wedding is the greatest gift of all. However, should you wish to help us celebrate with a gift,
-                  <br /><br />
-                  you may want to consider our <span className="font-semibold text-primary">NEWLYWED FUND</span> or <span className="font-semibold text-primary">WISHING WELL</span>, as we look forward to filling
-                  <br /><br />
-                  in the moments we missed while being apart!
-                </p>
-
-                {/* 4 Images Layout */}
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-                  {[
-                    "https://res.cloudinary.com/dnib23v4d/image/upload/v1767443318/Newlywed_-_1_rjpza8.jpg",
-                    "https://res.cloudinary.com/dnib23v4d/image/upload/v1767443318/Newlywed_-_3_amthho.jpg",
-                    "https://res.cloudinary.com/dnib23v4d/image/upload/v1767443318/Newlywed_-_2_c2twzx.jpg",
-                    "https://res.cloudinary.com/dnib23v4d/image/upload/v1767443319/Newlywed_-_4_kbuxjq.jpg"
-                  ].map((url, idx) => (
-                    <div key={idx} className="aspect-[3/4] rounded-lg overflow-hidden shadow-sm border border-border/50">
-                      <img 
-                        src={optimizeCloudinaryUrl(url, { width: 300, quality: 'auto' })} 
-                        alt={`Gift Option ${idx + 1}`}
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                  ))}
+                <div className="space-y-6 text-base md:text-lg text-foreground/80 leading-relaxed mb-10">
+                  <p className="font-medium">With all that we have, we’ve been truly blessed.</p>
+                  <p className="font-medium">Your presence and prayers are all that we request.</p>
+                  <p className="font-medium">But if you desire to give nonetheless,</p>
+                  <p className="font-medium">A monetary gift is one we suggest.</p>
                 </div>
 
                 {/* QR Code and Bank Details Text */}
                 <div className="space-y-2 mb-6">
-                  <p className="text-sm font-medium text-foreground/80 italic">Give from the heart,</p>
-                  <p className="text-sm font-medium text-foreground/80 italic">Whatever feels right to you!</p>
                   <p className="text-sm font-bold text-primary mt-4 uppercase tracking-wide">QR codes and Bank details</p>
                 </div>
 
