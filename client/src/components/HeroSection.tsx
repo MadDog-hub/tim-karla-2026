@@ -68,8 +68,11 @@ const HeroSection = ({ audioRef }: HeroSectionProps) => {
 
         {/* Date */}
         <div className={`transition-all duration-700 mt-6 ${(animationsEnabled && showElements) ? 'animate-fade-up opacity-100' : (!animationsEnabled ? 'opacity-100' : 'opacity-0')}`}>
-          <p className="text-sm sm:text-base md:text-lg text-white font-light tracking-[0.3em] uppercase" data-testid="text-date" style={{ fontFamily: 'Satoshi, sans-serif', fontWeight: 300 }}>
+          <p className="text-sm sm:text-base md:text-lg text-white font-light tracking-[0.3em] uppercase mb-4" data-testid="text-date" style={{ fontFamily: 'Satoshi, sans-serif', fontWeight: 300 }}>
             MARCH 28, 2026 . Pasay City
+          </p>
+          <p className="text-white/90 font-display text-lg md:text-xl tracking-widest font-medium">
+            #AnEverlasTIMloveWithKARLA
           </p>
         </div>
       </div>
