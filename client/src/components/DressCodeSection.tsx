@@ -2,10 +2,10 @@ import { motion } from 'framer-motion';
 
 const DressCodeSection = () => {
   const dressCodeColors = [
-    { name: '', color: '#be5738', hex: '#be5738' },
-    { name: '', color: '#be7f70', hex: '#be7f70' },
-    { name: '', color: '#d48246', hex: '#d48246' },
-    { name: '', color: '#d48246', hex: '#d48246' }
+    { name: '', color: '#534228', hex: '#534228' },
+    { name: '', color: '#707654', hex: '#707654' },
+    { name: '', color: '#b49a83', hex: '#b49a83' },
+    { name: '', color: '#fde3e2', hex: '#fde3e2' }
   ];
 
   const principalSponsorsColors = [
@@ -43,76 +43,6 @@ const DressCodeSection = () => {
 
         {/* Modern Dress Code Grid */}
         <div className="space-y-16 mb-16">
-          {/* Principal Sponsors */}
-          <motion.div 
-            className="group"
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut", delay: 8.1 }}
-          >
-            <div className="bg-white shadow-teal border border-primary/20 rounded-xl p-8 hover-elegant transition-all duration-500 relative">
-              <div className="text-center">
-                <motion.div
-                  initial={{ scale: 0.8 }}
-                  animate={{ scale: 1 }}
-                  transition={{ duration: 0.6, delay: 8.3 }}
-                >
-                  <div className="mb-10 relative">
-                    <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-transparent rounded-2xl"></div>
-                    <h3 className="text-2xl md:text-3xl font-display font-medium text-foreground mb-8 relative z-10">
-                      FOR PRINCIPAL SPONSORS
-                    </h3>
-                    <div className="grid md:grid-cols-2 gap-10 md:gap-16 px-4">
-                      <div className="text-center">
-                        <p className="text-lg font-semibold text-foreground mb-6 uppercase tracking-wider">Gentlemen</p>
-                        <motion.img 
-                          src="https://res.cloudinary.com/dnib23v4d/image/upload/v1767449384/b201bf04-8571-4ddb-b452-06747e45ea17.png"
-                          alt="Gentlemen Principal Sponsors attire"
-                          className="w-full max-w-md mx-auto object-contain rounded-2xl shadow-lg"
-                          initial={{ opacity: 0, scale: 0.9 }}
-                          animate={{ opacity: 1, scale: 1 }}
-                          transition={{ duration: 0.8, delay: 8.5 }}
-                        />
-                      </div>
-                      <div className="text-center">
-                        <p className="text-lg font-semibold text-foreground mb-6 uppercase tracking-wider">Ladies</p>
-                        <motion.img 
-                          src="https://res.cloudinary.com/dnib23v4d/image/upload/v1767451334/49b61cf5-c745-43a5-aaf0-67a815e5e732.png"
-                          alt="Ladies Principal Sponsors attire"
-                          className="w-full max-w-md mx-auto object-contain rounded-2xl shadow-lg"
-                          initial={{ opacity: 0, scale: 0.9 }}
-                          animate={{ opacity: 1, scale: 1 }}
-                          transition={{ duration: 0.8, delay: 8.6 }}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </motion.div>
-                
-                {/* Color Palette for Principal Sponsors */}
-                <motion.div
-                  className="mt-10 pt-10 border-t border-primary/20"
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: 8.7 }}
-                >
-                  <p className="text-lg font-semibold text-foreground mb-6">Color Motif</p>
-                  <div className="flex justify-center gap-6">
-                    {principalSponsorsColors.map((colorItem, index) => (
-                      <div key={index} className="text-center">
-                        <div 
-                          className="w-16 h-16 sm:w-20 sm:h-20 rounded-xl border-2 border-border shadow-soft hover:scale-105 transition-transform duration-300"
-                          style={{ backgroundColor: colorItem.color }}
-                        ></div>
-                        <p className="text-xs text-foreground mt-1">{colorItem.name}</p>
-                      </div>
-                    ))}
-                  </div>
-                </motion.div>
-              </div>
-            </div>
-          </motion.div>
-
           {/* Guests */}
           <motion.div 
             className="group"
@@ -135,6 +65,10 @@ const DressCodeSection = () => {
                     <div className="grid md:grid-cols-2 gap-10 md:gap-16 px-4">
                       <div className="text-center">
                         <p className="text-lg font-semibold text-foreground mb-6 uppercase tracking-wider">Gentlemen</p>
+                        <div className="space-y-2 mb-6 text-foreground/80 font-body">
+                          <p>Blue Grey, Grey pants</p>
+                          <p>White, Beige long sleeves</p>
+                        </div>
                         <motion.img 
                           src="https://res.cloudinary.com/dnib23v4d/image/upload/v1767451360/3225f580-936f-433e-b835-5a72e3aa6ab8.png"
                           alt="Gentlemen Guests attire"
@@ -146,6 +80,7 @@ const DressCodeSection = () => {
                       </div>
                       <div className="text-center">
                         <p className="text-lg font-semibold text-foreground mb-6 uppercase tracking-wider">Ladies</p>
+                        <p className="text-foreground/80 font-body mb-6">Guest Ladies Dress Palette</p>
                         <motion.img 
                           src="https://res.cloudinary.com/dnib23v4d/image/upload/v1767447581/78cf6737-ea4d-489d-88b0-520ab948ab6a.png"
                           alt="Ladies Guests attire"
