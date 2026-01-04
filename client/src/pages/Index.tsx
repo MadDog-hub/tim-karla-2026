@@ -70,12 +70,12 @@ const Index = () => {
         <ScrollTriggeredTimeline />
         <CoverSection
           imageUrl="https://res.cloudinary.com/dc36azfgf/image/upload/v1767436692/1_fav_prenup_kyhjl4.jpg"
-          alt="Josh & Pat Wedding Cover 1"
+          alt="Tim & Karla Wedding Cover 1"
         />
         <VenueSection />
         <CoverSection
           imageUrl="https://res.cloudinary.com/dc36azfgf/image/upload/v1767436692/2_fav_prenup_hkvxlo.jpg"
-          alt="Josh & Pat Wedding Cover 2"
+          alt="Tim & Karla Wedding Cover 2"
         />
         <DressCodeSection />
         <HashtagGiftsSection />
@@ -84,7 +84,7 @@ const Index = () => {
         <RSVPSection />
         <CoverSection
           imageUrl="https://res.cloudinary.com/dc36azfgf/image/upload/v1767436692/3_fav_prenup_sdq7sf.jpg"
-          alt="Josh & Pat Wedding Cover 3"
+          alt="Tim & Karla Wedding Cover 3"
         />
         <EntourageSection />
         <FAQSection />

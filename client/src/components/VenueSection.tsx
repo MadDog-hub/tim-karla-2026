@@ -10,28 +10,16 @@ import receptionImage from "@assets/reception_1762597125960.jpg";
 const VenueSection = () => {
   const venues = [
     {
-      title: 'Ceremony',
-      name: 'The Parish of Immaculate Heart of Mary (diocese of Antipolo)',
-      address: 'Daang Bakal Rd, Antipolo City, 1870 Rizal',
+      title: 'Ceremony & Reception',
+      name: 'Casa Ibarra',
+      address: 'MOA, Lot 17 Coral Way, Pasay City',
       image: 'https://res.cloudinary.com/dc36azfgf/image/upload/v1767436693/ceremony_jhlsra.jpg',
-      mapUrl: 'https://maps.app.goo.gl/bRG1aDTHmpCp68bB9',
-      mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.0315976022525!2d121.1603207!3d14.597275400000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b8b089fa70bb%3A0x3a2922d867e8bd24!2sImmaculate%20Heart%20of%20Mary%20(Diocese%20of%20Antipolo)!5e0!3m2!1sen!2sph!4v1767439184226!5m2!1sen!2sph',
-      description: 'Witness our vows and the beginning of our journey together at The Parish of Immaculate Heart of Mary.',
-      details: 'The ceremony begins at 3:00 PM. Please arrive by 2:30 PM to be seated.',
+      mapUrl: 'https://maps.app.goo.gl/pW6z6G7yP6J7U8yL9',
+      mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.134857432367!2d120.9818843!3d14.5342417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397cbda3a059d3d%3A0x6a0a0b1f2b3c4d5e!2sCasa%20Ibarra!5e0!3m2!1sen!2sph!4v1767439184226!5m2!1sen!2sph',
+      description: 'Join us for both our ceremony and reception at the elegant Casa Ibarra.',
+      details: 'The ceremony begins at 3:00 PM. Registration starts at 2:00 PM.',
       unpluggedNote: 'UNPLUGGED CEREMONY\nTo help keep the atmosphere intimate, we ask that you please refrain from using phones or cameras during the ceremony.',
       startTime: '3:00 PM',
-      locationGuide: 'View on Maps →'
-    },
-    {
-      title: 'Reception',
-      name: 'Leblanc Skyhall and Sky Garden',
-      address: '3 Taktak Rd, Antipolo, 1870 Rizal',
-      image: 'https://res.cloudinary.com/dc36azfgf/image/upload/v1767436716/reception_qszzxl.jpg',
-      mapUrl: 'https://maps.app.goo.gl/dGaMMcAcqUDW5tN96',
-      mapEmbed: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3861.0913582539333!2d121.1682592!3d14.5938698!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b8b2b68b4fe3%3A0x5418bb6f5e7508c6!2sLeBlanc%20Hotel%20and%20Resort!5e0!3m2!1sen!2sph!4v1767439225875!5m2!1sen!2sph',
-      description: 'Join us for an evening of celebration at the Leblanc Skyhall and Sky Garden.',
-      details: 'Reception starts at 6:00 PM. Registration and Cocktail Hour begin at 5:30 PM.',
-      startTime: '6:00 PM',
       locationGuide: 'View on Maps →'
     }
   ];
