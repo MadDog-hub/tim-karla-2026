@@ -63,16 +63,6 @@ const HashtagGiftsSection = () => {
                   <p className="font-medium">But if you desire to give nonetheless,</p>
                   <p className="font-medium">A monetary gift is one we suggest.</p>
                 </div>
-                <motion.div 
-                  className="mt-8 pt-8 border-t border-primary/10"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ delay: 1.5 }}
-                >
-                  <p className="text-xl md:text-2xl font-display text-primary tracking-wider font-semibold">
-                    #AnEverlasTIMloveWithKARLA
-                  </p>
-                </motion.div>
               </motion.div>
             </motion.div>
           </div>

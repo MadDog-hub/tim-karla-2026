@@ -51,18 +51,13 @@ const Footer = () => {
           </div>
 
           {/* Bottom Section */}
-          <div className="pt-8 space-y-4">
-            <p className="text-primary font-display text-xl tracking-wider font-semibold">
-              #AnEverlasTIMloveWithKARLA
+          <div className="pt-8">
+            <p className="text-foreground text-sm">
+              With love and gratitude,
             </p>
-            <div>
-              <p className="text-foreground text-sm">
-                With love and gratitude,
-              </p>
-              <p className="text-foreground" style={{ fontFamily: 'Boska, serif', fontWeight: 300 }}>
-                Tim & Karla
-              </p>
-            </div>
+            <p className="text-foreground" style={{ fontFamily: 'Boska, serif', fontWeight: 300 }}>
+              Tim & Karla
+            </p>
           </div>
 
           {/* Website Design Credit */}
