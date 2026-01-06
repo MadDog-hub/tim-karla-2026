@@ -20,22 +20,17 @@ const MemorableMomentsSection = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <h2 className="text-5xl md:text-6xl font-display font-light italic text-gold-bright mb-8" data-testid="text-prenup-photos-title">
-            Save the Date Photos
+            Save the Date Photo
           </h2>
           <div className="w-24 h-px bg-gold-bright/30 mx-auto mb-12" />
           
           <div className="relative py-20 px-8 border border-dashed border-primary/20 rounded-2xl bg-primary/5">
-            <motion.p 
-              className="text-3xl md:text-4xl font-display italic text-primary/60 tracking-widest uppercase"
-              initial={{ opacity: 0.5 }}
-              animate={{ opacity: [0.5, 1, 0.5] }}
-              transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-            >
-              Coming Soon
-            </motion.p>
-            <p className="mt-4 text-muted-foreground font-light tracking-wide">
-              Beautiful moments are currently being prepared for you
-            </p>
+            <img 
+              src="https://res.cloudinary.com/dbciwaal4/image/upload/v1767712245/c00166f2-6449-436a-a3e4-2f09187aa7ed.png"
+              alt="Save the Date"
+              className="max-w-full h-auto mx-auto rounded-lg shadow-lg"
+              data-testid="img-save-the-date"
+            />
           </div>
         </motion.div>
       </div>

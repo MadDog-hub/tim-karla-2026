@@ -57,11 +57,8 @@ const HashtagGiftsSection = () => {
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.6, delay: 1.2 }}
               >
-                <div className="space-y-2 text-base md:text-lg text-foreground/80 leading-relaxed mb-6">
-                  <p className="font-medium">With all that we have, we’ve been truly blessed.</p>
-                  <p className="font-medium">Your presence and prayers are all that we request.</p>
-                  <p className="font-medium">But if you desire to give nonetheless,</p>
-                  <p className="font-medium">A monetary gift is one we suggest.</p>
+                <div className="space-y-4 text-base md:text-lg text-foreground/80 leading-relaxed mb-6">
+                  <p className="font-medium">Your affection, presence, and blessings are the greatest gifts we could ever hope for. However, if you wish to offer a tangible gift, a small token that fits within an envelope would be warmly received and appreciated.</p>
                 </div>
               </motion.div>
             </motion.div>
