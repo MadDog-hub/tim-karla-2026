@@ -17,7 +17,7 @@ const DressCodeSection = () => {
   return (
     <motion.section 
       id="dresscode" 
-      className="section-pastel-blue bg-white relative overflow-hidden mt-[10px]"
+      className="section-pastel-blue bg-white relative overflow-hidden mt-[10px] mb-12"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1, delay: 7.5 }}
@@ -68,7 +68,7 @@ const DressCodeSection = () => {
                   <motion.img 
                     src="https://res.cloudinary.com/dbciwaal4/image/upload/v1767713847/d1a30bea-6048-4604-8dc8-b4dcaf149cb2_1_1_dlpenk.jpg"
                     alt="Principal Sponsors attire"
-                    className="w-full max-w-sm mx-auto object-contain rounded-2xl shadow-lg"
+                    className="w-full max-w-[280px] mx-auto object-contain rounded-2xl shadow-lg"
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.8, delay: 8.5 }}
@@ -120,7 +120,7 @@ const DressCodeSection = () => {
                   <motion.img 
                     src="https://res.cloudinary.com/dbciwaal4/image/upload/v1767713884/ca574738-ef08-4ef0-8169-481679b87966_1_bltgso.jpg"
                     alt="Guests attire"
-                    className="w-full max-w-sm mx-auto object-contain rounded-2xl shadow-lg"
+                    className="w-full max-w-[280px] mx-auto object-contain rounded-2xl shadow-lg"
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.8, delay: 8.8 }}
