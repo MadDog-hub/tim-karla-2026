@@ -2,13 +2,16 @@ import { motion } from 'framer-motion';
 
 const DressCodeSection = () => {
   const dressCodeColors = [
-    { name: 'Blush Pink', color: '#fde3e2', hex: '#fde3e2' },
-    { name: 'Ivory', color: '#b49a83', hex: '#b49a83' },
-    { name: 'Sage Green', color: '#707654', hex: '#707654' }
+    { name: 'Sage', color: '#9CAF88', hex: '#9CAF88' },
+    { name: 'Silver Gray', color: '#C0C0C0', hex: '#C0C0C0' },
+    { name: 'Champagne', color: '#F7E7CE', hex: '#F7E7CE' },
+    { name: 'Beige', color: '#F5F5DC', hex: '#F5F5DC' },
+    { name: 'Dessert Rose', color: '#F39998', hex: '#F39998' }
   ];
 
   const principalSponsorsColors = [
-    { name: 'Beige', color: '#b49a83', hex: '#b49a83' }
+    { name: 'Light Silver', color: '#D8D8D8', hex: '#D8D8D8' },
+    { name: 'Beige', color: '#F5F5DC', hex: '#F5F5DC' }
   ];
 
   return (
@@ -58,12 +61,12 @@ const DressCodeSection = () => {
                       <p className="text-sm font-semibold text-primary uppercase tracking-wider">Formal Attire</p>
                     </div>
                     <div className="text-sm text-foreground/80 space-y-1">
-                      <p>Men: Formal suit</p>
+                      <p>Men: Light gray suit</p>
                       <p>Ladies: Beige long gown</p>
                     </div>
                   </div>
                   <motion.img 
-                    src="https://res.cloudinary.com/diskgga1j/image/upload/v1767537404/ef3451ac-3d1e-43d1-a7d3-de7d760d8f6e_djrlty.png"
+                    src="https://res.cloudinary.com/dbciwaal4/image/upload/v1767713847/d1a30bea-6048-4604-8dc8-b4dcaf149cb2_1_1_dlpenk.jpg"
                     alt="Principal Sponsors attire"
                     className="w-full max-w-sm mx-auto object-contain rounded-2xl shadow-lg"
                     initial={{ opacity: 0, scale: 0.9 }}
@@ -110,12 +113,12 @@ const DressCodeSection = () => {
                       <p className="text-sm font-semibold text-primary uppercase tracking-wider">Semi-Formal Attire</p>
                     </div>
                     <div className="text-sm text-foreground/80 space-y-1">
-                      <p>Men: Beige, White, Blue Gray</p>
-                      <p>Ladies: Blush Pink, Ivory, Sage Green</p>
+                      <p>Men: Longsleeve, pants, close to formal shoes</p>
+                      <p>Ladies: Long dress, cocktail dress, heels or closed shoes</p>
                     </div>
                   </div>
                   <motion.img 
-                    src="https://res.cloudinary.com/diskgga1j/image/upload/v1767537431/779c8c18-b6f6-4b6f-b651-5f651dbd0d51_ycr5hx.png"
+                    src="https://res.cloudinary.com/dbciwaal4/image/upload/v1767713884/ca574738-ef08-4ef0-8169-481679b87966_1_bltgso.jpg"
                     alt="Guests attire"
                     className="w-full max-w-sm mx-auto object-contain rounded-2xl shadow-lg"
                     initial={{ opacity: 0, scale: 0.9 }}
