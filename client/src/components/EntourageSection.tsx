@@ -34,27 +34,22 @@ const EntourageSection = () => {
     secondarySponsors: {
       title: "Secondary Sponsors",
       roles: [
-        { role: "Candle", names: ["Clariza Carpio"] },
-        { role: "Veil", names: ["Rita Casiquin"] },
-        { role: "Cord", names: ["Kathleen Santiago-Echavez"] }
+        { role: "Candle", names: ["Clariza Carpio", "Rey Brian C. Glean"] },
+        { role: "Veil", names: ["Rita Casiquin", "Immanuel C. Canilao"] },
+        { role: "Cord", names: ["Kathleen Santiago-Echavez", "Jonathan C. Uy"] }
       ]
     },
     bestMen: ["Christopher Albert P. Fortuno", "Albright M. Dy"],
     maidOfHonor: { name: "Maria Camille V. Racasa", role: "Maid of Honour" },
-    groomsmen: [
-      "Immanuel C. Canilao",
-      "Rey Brian C. Glean",
-      "Jonathan C. Uy"
-    ],
     bridesmaids: [
       "Alzee Aquino",
       "Dianne F. Rodriguez",
       "Sarah F. Chua"
     ],
     bearers: [
-      { role: "Ring Bearer", names: ["Declan C. Jenkinson"] },
+      { role: "Ring Bearer", names: ["Declan Jenkinson"] },
       { role: "Bible Bearer", names: ["Henry Emmanuel Anotado"] },
-      { role: "Array Bearer", names: ["Donovan C. Jenkinson"] },
+      { role: "Array Bearer", names: ["Donovan Jenkinson"] },
       { role: "Here comes the Bride Banner", names: ["Prince Noah A. Rodriguez"] }
     ],
     flowerGirls: [
@@ -173,7 +168,7 @@ const EntourageSection = () => {
         >
           <div className="grid grid-cols-2 gap-4 md:gap-8 max-w-4xl mx-auto">
             <div className="text-center" data-testid="groomsmen-section">
-              <div className="grid grid-cols-1 gap-4 md:gap-6 mb-8">
+              <div className="grid grid-cols-1 gap-4 md:gap-6">
                 <div className="text-center">
                   <h4 className="text-xs md:text-sm font-display font-bold mb-1 md:mb-2 text-primary uppercase tracking-wider">
                     Best Men
@@ -184,15 +179,6 @@ const EntourageSection = () => {
                     </p>
                   ))}
                 </div>
-              </div>
-              
-              <div className="mt-8">
-                <h4 className="text-xs md:text-sm font-display font-bold mb-1 md:mb-2 text-primary uppercase tracking-wider">Grooms Men</h4>
-                {entourageData.groomsmen.map((name, index) => (
-                  <p key={index} className="text-xs md:text-sm lg:text-base font-telma text-foreground mb-1" data-testid={`groomsman-${index}`}>
-                    {name}
-                  </p>
-                ))}
               </div>
             </div>
             <div className="text-center" data-testid="bridesmaids-section">
