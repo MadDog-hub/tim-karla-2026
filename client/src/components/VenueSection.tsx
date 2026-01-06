@@ -13,7 +13,7 @@ const VenueSection = () => {
       title: 'Ceremony & Reception',
       name: 'Casa Ibarra',
       address: 'MOA, Lot 17 Coral Way, Pasay City',
-      image: 'https://res.cloudinary.com/dc36azfgf/image/upload/v1767436693/ceremony_jhlsra.jpg',
+      image: 'https://res.cloudinary.com/dbciwaal4/image/upload/v1767712205/98db1024-bba0-4bba-9b30-51b3fcf4f6af_1_igmjev.jpg',
       mapUrl: 'https://maps.app.goo.gl/FTn9d5ddT9m2pMMC6',
       mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.190771156744!2d120.98388457457173!3d14.53107787877606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397cbfe67bf11bf%3A0x674a3b6ce20ec2b1!2sCasa%20Ibarra!5e0!3m2!1sen!2sph!4v1767535302138!5m2!1sen!2sph',
       description: 'Join us for both our ceremony and reception at the elegant Casa Ibarra.',
@@ -99,7 +99,7 @@ const VenueSection = () => {
                       {/* Image frame decoration */}
                       <div className="absolute -inset-1 bg-gradient-to-br from-primary/20 to-primary/5 rounded-lg" />
                       <img
-                        src="https://res.cloudinary.com/diskgga1j/image/upload/v1767535293/bc160514-da67-4451-a500-dba6c786d5f5.png"
+                        src={venue.image}
                         alt={venue.name}
                         className="relative w-full h-72 md:h-96 object-cover rounded-lg shadow-xl"
                         loading="lazy"
