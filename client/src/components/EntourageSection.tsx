@@ -166,41 +166,37 @@ const EntourageSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 1.0 }}
         >
-          <div className="grid grid-cols-2 gap-4 md:gap-8 max-w-4xl mx-auto">
-            <div className="text-center" data-testid="groomsmen-section">
-              <div className="grid grid-cols-1 gap-4 md:gap-6">
-                <div className="text-center">
-                  <h4 className="text-xs md:text-sm font-display font-bold mb-1 md:mb-2 text-primary uppercase tracking-wider">
-                    Best Men
-                  </h4>
-                  {entourageData.bestMen.map((name, i) => (
-                    <p key={i} className="text-xs md:text-sm lg:text-base font-telma text-foreground">
-                      {name}
-                    </p>
-                  ))}
-                </div>
-              </div>
-            </div>
-            <div className="text-center" data-testid="bridesmaids-section">
-              <div className="grid grid-cols-1 gap-4 md:gap-6 mb-8">
-                <div className="text-center">
-                  <h4 className="text-xs md:text-sm font-display font-bold mb-1 md:mb-2 text-primary uppercase tracking-wider">
-                    Maid of Honour
-                  </h4>
-                  <p className="text-xs md:text-sm lg:text-base font-telma text-foreground">
-                    {entourageData.maidOfHonor.name}
-                  </p>
-                </div>
-              </div>
-
-              <div className="mt-8">
-                <h4 className="text-xs md:text-sm font-display font-bold mb-1 md:mb-2 text-primary uppercase tracking-wider">Bridesmaids</h4>
-                {entourageData.bridesmaids.map((name, index) => (
-                  <p key={index} className="text-xs md:text-sm lg:text-base font-telma text-foreground mb-1" data-testid={`bridesmaid-${index}`}>
+          <div className="max-w-4xl mx-auto space-y-12">
+            <div className="grid grid-cols-2 gap-4 md:gap-8">
+              <div className="text-center" data-testid="bestmen-section">
+                <h4 className="text-xs md:text-sm font-display font-bold mb-1 md:mb-2 text-primary uppercase tracking-wider">
+                  Best Men
+                </h4>
+                {entourageData.bestMen.map((name, i) => (
+                  <p key={i} className="text-xs md:text-sm lg:text-base font-telma text-foreground">
                     {name}
                   </p>
                 ))}
               </div>
+              <div className="text-center" data-testid="maidofhonor-section">
+                <h4 className="text-xs md:text-sm font-display font-bold mb-1 md:mb-2 text-primary uppercase tracking-wider">
+                  Maid of Honour
+                </h4>
+                <p className="text-xs md:text-sm lg:text-base font-telma text-foreground">
+                  {entourageData.maidOfHonor.name}
+                </p>
+              </div>
+            </div>
+
+            <div className="text-center" data-testid="bridesmaids-section">
+              <h4 className="text-xs md:text-sm font-display font-bold mb-1 md:mb-2 text-primary uppercase tracking-wider">
+                Bridesmaids
+              </h4>
+              {entourageData.bridesmaids.map((name, index) => (
+                <p key={index} className="text-xs md:text-sm lg:text-base font-telma text-foreground mb-1" data-testid={`bridesmaid-${index}`}>
+                  {name}
+                </p>
+              ))}
             </div>
           </div>
         </motion.div>
