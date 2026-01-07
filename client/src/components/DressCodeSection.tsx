@@ -5,13 +5,12 @@ const DressCodeSection = () => {
     { name: 'Sage', color: '#9CAF88', hex: '#9CAF88' },
     { name: 'Silver Gray', color: '#C0C0C0', hex: '#C0C0C0' },
     { name: 'Champagne', color: '#F7E7CE', hex: '#F7E7CE' },
-    { name: 'Beige', color: '#F5F5DC', hex: '#F5F5DC' },
     { name: 'Dessert Rose', color: '#F39998', hex: '#F39998' }
   ];
 
   const principalSponsorsColors = [
     { name: 'Light Silver', color: '#D8D8D8', hex: '#D8D8D8' },
-    { name: 'Beige', color: '#F5F5DC', hex: '#F5F5DC' }
+    { name: 'Beige', color: '#D2B48C', hex: '#D2B48C' }
   ];
 
   return (
@@ -66,7 +65,7 @@ const DressCodeSection = () => {
                     </div>
                   </div>
                   <motion.img 
-                    src="https://res.cloudinary.com/dbciwaal4/image/upload/v1767713847/d1a30bea-6048-4604-8dc8-b4dcaf149cb2_1_1_dlpenk.jpg"
+                    src="https://res.cloudinary.com/dbciwaal4/image/upload/v1767754753/f0bbebc0-9541-4954-8186-44180b002f2c_1_xnsq4g.jpg"
                     alt="Principal Sponsors attire"
                     className="w-full max-w-[200px] md:max-w-[240px] mx-auto object-contain rounded-2xl shadow-lg"
                     initial={{ opacity: 0, scale: 0.9 }}
