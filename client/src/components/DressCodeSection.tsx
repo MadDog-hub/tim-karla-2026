@@ -79,7 +79,7 @@ const DressCodeSection = () => {
                   <p className="text-sm font-semibold text-foreground mb-6 uppercase tracking-widest">Color Motif</p>
                   <div className="flex justify-center">
                     {principalSponsorsColors.map((colorItem, index) => (
-                      <div key={index} className="text-center">
+                      <div key={index} className="text-center pl-[10px] pr-[10px]">
                         <div 
                           className="w-16 h-16 rounded-xl border-2 border-border shadow-soft hover:scale-105 transition-transform duration-300"
                           style={{ backgroundColor: colorItem.color }}
