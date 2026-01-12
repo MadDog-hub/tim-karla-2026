@@ -160,7 +160,7 @@ const timelineEvents: TimelineEvent[] = [
         hueB: 40,
     },
     {
-        time: "5:00 PM",
+        time: "4:00 PM",
         event: "Cocktails & Photos",
         description: "Enjoy some refreshments while we capture moments.",
         icon: Wine,
@@ -168,7 +168,7 @@ const timelineEvents: TimelineEvent[] = [
         hueB: 40,
     },
     {
-        time: "6:00 PM",
+        time: "5:00 PM",
         event: "Reception",
         description: "Grand entrance and celebration.",
         icon: Sparkles,
