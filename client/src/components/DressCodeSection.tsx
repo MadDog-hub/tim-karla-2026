@@ -10,7 +10,7 @@ const DressCodeSection = () => {
 
   const principalSponsorsColors = [
     { name: 'Light Silver', color: '#D8D8D8', hex: '#D8D8D8' },
-    { name: 'Periwinkle Blue', color: '#CCCCFF', hex: '#CCCCFF' }
+    { name: 'Dusty Blue', color: '#8BA9C3', hex: '#8BA9C3' }
   ];
 
   return (
@@ -61,11 +61,11 @@ const DressCodeSection = () => {
                     </div>
                     <div className="text-sm text-foreground/80 space-y-1">
                       <p>Men: Light gray suit</p>
-                      <p>Ladies: Periwinkle blue long gown</p>
+                      <p>Ladies: Dusty blue long gown</p>
                     </div>
                   </div>
                   <motion.img 
-                    src="https://res.cloudinary.com/dbciwaal4/image/upload/v1768222994/7b7ffdb8-af38-46c0-ab4a-f7efd23dfb94.png"
+                    src="https://res.cloudinary.com/dbciwaal4/image/upload/v1768226844/30e6b820-6706-44c7-adf4-b4243feb0bdb.png"
                     alt="Principal Sponsors attire"
                     className="w-full max-w-[200px] md:max-w-[240px] mx-auto object-contain rounded-2xl shadow-lg"
                     initial={{ opacity: 0, scale: 0.9 }}
