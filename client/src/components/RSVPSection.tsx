@@ -73,6 +73,16 @@ const RSVPSection = () => {
                 data-testid="button-rsvp"
               >RSVP HERE!</a>
 
+              <div className="mt-4 flex flex-col items-center space-y-4">
+                <p className="text-sm md:text-base text-muted-foreground font-body italic">or scan this QR code to RSVP</p>
+                <img 
+                  src="https://res.cloudinary.com/dbciwaal4/image/upload/v1768226065/446c1c5e-81c3-4212-a4c6-328a14a65b88.png" 
+                  alt="RSVP QR Code" 
+                  className="w-32 h-32 md:w-40 md:h-40 object-contain rounded-lg shadow-sm border border-primary/10"
+                  data-testid="img-rsvp-qrcode"
+                />
+              </div>
+
               {/* Message below button with white container */}
               <div className="mt-8 bg-white rounded-2xl p-8 max-w-2xl mx-auto shadow-teal border border-primary/20">
                 <p 
@@ -87,16 +97,6 @@ const RSVPSection = () => {
 
                 {/* Additional RSVP Notes */}
                 <div className="mt-8 pt-8 border-t border-primary/10 text-left space-y-6">
-                  <div className="flex flex-col items-center text-center space-y-4">
-                    <h4 className="font-display font-bold text-primary uppercase tracking-wider text-base md:text-lg italic">Scan this QR Code</h4>
-                    <img 
-                      src="https://res.cloudinary.com/dbciwaal4/image/upload/v1768226065/446c1c5e-81c3-4212-a4c6-328a14a65b88.png" 
-                      alt="RSVP QR Code" 
-                      className="w-32 h-32 md:w-40 md:h-40 object-contain rounded-lg shadow-sm border border-primary/10"
-                      data-testid="img-rsvp-qrcode"
-                    />
-                    <p className="text-sm text-muted-foreground font-body italic">or scan this QR code to RSVP</p>
-                  </div>
                   <div>
                     <h4 className="font-display font-bold text-primary uppercase tracking-wider text-base md:text-lg mb-2 italic">Plus one's</h4>
                     <p className="text-base md:text-lg text-foreground leading-relaxed font-body font-medium">
