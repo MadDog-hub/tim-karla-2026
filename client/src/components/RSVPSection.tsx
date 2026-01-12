@@ -78,7 +78,7 @@ const RSVPSection = () => {
                 <img 
                   src="https://res.cloudinary.com/dbciwaal4/image/upload/v1768226065/446c1c5e-81c3-4212-a4c6-328a14a65b88.png" 
                   alt="RSVP QR Code" 
-                  className="w-32 h-32 md:w-40 md:h-40 object-contain rounded-lg shadow-sm border border-primary/10"
+                  className="w-48 h-48 md:w-64 md:h-64 object-contain rounded-lg shadow-sm border border-primary/10"
                   data-testid="img-rsvp-qrcode"
                 />
               </div>
