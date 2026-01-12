@@ -48,8 +48,8 @@ const EntourageSection = () => {
     ],
     bearers: [
       { role: "Ring Bearer", names: ["Declan Jenkinson"] },
-      { role: "Bible Bearer", names: ["Henry Emmanuel Anotado"] },
-      { role: "Array Bearer", names: ["Donovan Jenkinson"] },
+      { role: "Bible Bearer", names: ["Donovan Jenkinson"] },
+      { role: "Array Bearer", names: ["Henry Emmanuel Anotado"] },
       { role: "Here comes the Bride Banner", names: ["Prince Noah A. Rodriguez"] }
     ],
     flowerGirls: [
