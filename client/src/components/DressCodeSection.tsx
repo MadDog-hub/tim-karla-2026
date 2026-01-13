@@ -9,7 +9,7 @@ const DressCodeSection = () => {
   ];
 
   const principalSponsorsColors = [
-    { name: 'Light Silver', color: '#D8D8D8', hex: '#D8D8D8' },
+    { name: 'Light Gray', color: '#D3D3D3', hex: '#D3D3D3' },
     { name: 'Dusty Blue', color: '#8BA9C3', hex: '#8BA9C3' }
   ];
 
