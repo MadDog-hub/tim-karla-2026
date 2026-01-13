@@ -5,7 +5,7 @@ const EntourageSection = () => {
     parents: [
       { 
         label: "Parents of the Groom", 
-        names: ["Susan C. Canilao", "Manuel Canilao ✝"] 
+        names: ["Manuel Canilao ✝", "Susan C. Canilao"] 
       },
       { 
         label: "Parents of the Bride", 
