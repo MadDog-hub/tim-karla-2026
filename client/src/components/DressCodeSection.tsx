@@ -65,7 +65,7 @@ const DressCodeSection = () => {
                     </div>
                   </div>
                   <motion.img 
-                    src="https://res.cloudinary.com/dbciwaal4/image/upload/v1768226844/30e6b820-6706-44c7-adf4-b4243feb0bdb.png"
+                    src="https://res.cloudinary.com/diskgga1j/image/upload/v1769354919/225bd5bf-52a9-4e17-8862-e2ec30d6ec92.png"
                     alt="Principal Sponsors attire"
                     className="w-full max-w-[200px] md:max-w-[240px] mx-auto object-contain rounded-2xl shadow-lg"
                     initial={{ opacity: 0, scale: 0.9 }}

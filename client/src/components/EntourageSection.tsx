@@ -20,7 +20,8 @@ const EntourageSection = () => {
         "Jose Ramon A. Villanueva",
         "Edione Febrero",
         "Hendrik Meijnhardt",
-        "Steve Morales"
+        "Steve Morales",
+        "Rogelio Rodriguez"
       ],
       women: [
         "Cosette V. Canilao",
@@ -28,7 +29,8 @@ const EntourageSection = () => {
         "Svetlana A. Villanueva",
         "Myrna Antonio",
         "Cecilia A. Marinay",
-        "Ruth Morales"
+        "Ruth Morales",
+        "Corazon Rodriguez"
       ]
     },
     secondarySponsors: {
