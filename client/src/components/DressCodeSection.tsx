@@ -9,7 +9,7 @@ const DressCodeSection = () => {
   ];
 
   const principalSponsorsColors = [
-    { name: 'Light Gray', color: '#D3D3D3', hex: '#D3D3D3' },
+    { name: 'Navy Blue', color: '#000080', hex: '#000080' },
     { name: 'Dusty Blue', color: '#8BA9C3', hex: '#8BA9C3' }
   ];
 
@@ -60,7 +60,7 @@ const DressCodeSection = () => {
                       <p className="text-sm font-semibold text-primary uppercase tracking-wider">Formal Attire</p>
                     </div>
                     <div className="text-sm text-foreground/80 space-y-1">
-                      <p>Men: Light gray suit</p>
+                      <p>Men: Navy blue suit</p>
                       <p>Ladies: Dusty blue long gown</p>
                     </div>
                   </div>
