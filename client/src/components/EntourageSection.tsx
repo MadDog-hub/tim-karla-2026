@@ -18,7 +18,6 @@ const EntourageSection = () => {
         "Andres P. Canilao",
         "Jimmy E. Chua",
         "Jose Ramon A. Villanueva",
-        "Edione Febrero",
         "Hendrik Meijnhardt",
         "Steve Morales",
         "Rogelio Rodriguez"
@@ -27,7 +26,6 @@ const EntourageSection = () => {
         "Cosette V. Canilao",
         "Glenda F. Chua",
         "Svetlana A. Villanueva",
-        "Myrna Antonio",
         "Cecilia A. Marinay",
         "Ruth Morales",
         "Corazon Rodriguez"
